@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/account.dart';
+import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page-dm.dart';
 import 'package:myapp/page-1/notif-page.dart';
+import 'package:myapp/page-1/trendpage.dart';
 import 'dart:ui';
 import 'package:myapp/utils.dart';
 
@@ -46,9 +50,18 @@ class NotificationImp extends StatelessWidget {
                             height: 30 * fem,
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(90 * fem),
-                              child: Image.asset(
-                                'assets/page-1/images/profile-z73.png',
-                                fit: BoxFit.cover,
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              AccountScene()));
+                                },
+                                child: Image.asset(
+                                  'assets/page-1/images/profile-z73.png',
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                           ),
@@ -583,10 +596,18 @@ class NotificationImp extends StatelessWidget {
                         20 * fem, 0 * fem, 45 * fem, 0 * fem),
                     width: 30 * fem,
                     height: 30 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/mingcute-notification-fill.png',
-                      width: 30 * fem,
-                      height: 30 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => NotificationAll()));
+                      },
+                      child: Image.asset(
+                        'assets/page-1/images/mingcute-notification-fill.png',
+                        width: 30 * fem,
+                        height: 30 * fem,
+                      ),
                     ),
                   ),
                   Container(
@@ -595,10 +616,18 @@ class NotificationImp extends StatelessWidget {
                         0 * fem, 0 * fem, 34.75 * fem, 0 * fem),
                     width: 22.5 * fem,
                     height: 22.5 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/material-symbols-search.png',
-                      width: 22.5 * fem,
-                      height: 22.5 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => TrendPage()));
+                      },
+                      child: Image.asset(
+                        'assets/page-1/images/material-symbols-search.png',
+                        width: 22.5 * fem,
+                        height: 22.5 * fem,
+                      ),
                     ),
                   ),
                   Container(
@@ -630,10 +659,18 @@ class NotificationImp extends StatelessWidget {
                         0 * fem, 0 * fem, 49.38 * fem, 0 * fem),
                     width: 26.25 * fem,
                     height: 26.25 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/fluent-people-community-16-filled.png',
-                      width: 26.25 * fem,
-                      height: 26.25 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => CommunityPageWidget()));
+                      },
+                      child: Image.asset(
+                        'assets/page-1/images/fluent-people-community-16-filled.png',
+                        width: 26.25 * fem,
+                        height: 26.25 * fem,
+                      ),
                     ),
                   ),
                   Container(
@@ -642,10 +679,16 @@ class NotificationImp extends StatelessWidget {
                         0 * fem, 0.01 * fem, 0 * fem, 0 * fem),
                     width: 25 * fem,
                     height: 24.99 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/uil-message.png',
-                      width: 25 * fem,
-                      height: 24.99 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => dmPage()));
+                      },
+                      child: Image.asset(
+                        'assets/page-1/images/uil-message.png',
+                        width: 25 * fem,
+                        height: 24.99 * fem,
+                      ),
                     ),
                   ),
                 ],
