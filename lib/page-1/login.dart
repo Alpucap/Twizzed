@@ -44,7 +44,7 @@ class LoginScene extends StatelessWidget {
               ),
               Container(
                 // autogroupqseuSnh (Nn53UbFmN3YuCEWhFrqsEu)
-                padding: EdgeInsets.fromLTRB(58*fem, 50*fem, 58*fem, 278*fem),
+                padding: EdgeInsets.fromLTRB(58*fem, 50*fem, 58*fem, 17*fem),
                 width: double.infinity,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -129,7 +129,7 @@ class LoginScene extends StatelessWidget {
                           ),
                           Container(
                             // component1Ycm (1:124)
-                            width: 63*fem,
+                            width: 83*fem,
                             height: double.infinity,
                             decoration: BoxDecoration (
                               color: Color(0xffffffff),

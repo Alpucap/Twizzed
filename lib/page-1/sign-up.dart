@@ -17,11 +17,11 @@ class SignUpScene extends StatelessWidget {
     return Scaffold(
     body: Container(
           width: 800,
-          height: 900,
+          height: 740,
           child: Container(
             // signupUz1 (1:16)
             width: 800,
-            height: 900,
+            height: 740,
             decoration: BoxDecoration (
               color: Color(0xff000000),
             ),
@@ -32,7 +32,7 @@ class SignUpScene extends StatelessWidget {
                 Container(
                   // autogroupfq1kZe5 (Nn4y3oTyVJqJyRDL7MfQ1K)
                   width: 412,
-                  height: 101,
+                  height: 150,
                 ),
                 Container(
                   // signupHru (1:21)
@@ -51,7 +51,7 @@ class SignUpScene extends StatelessWidget {
                 Container(
                   // autogroupzg7fAfo (Nn4ya7vnnLmnwhJ69Qzg7F)
                   width: double.infinity,
-                  height: 508*fem,
+                  height: 308*fem,
                   child: Stack(
                     children: [
                       Positioned(
