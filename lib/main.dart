@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:flutter/gestures.dart';
+// import 'dart:ui';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
-import 'package:myapp/page-1/sign-up.dart';
+// import 'package:myapp/page-1/sign-up.dart';
 // import 'package:myapp/page-1/forgotpass.dart';
 // import 'package:myapp/page-1/forgotpass-RCy.dart';
 // import 'package:myapp/page-1/intro.dart';
@@ -22,9 +22,7 @@ class MyApp extends StatelessWidget {
 		primarySwatch: Colors.blue,
 		),
 		home: Scaffold(
-		body: SingleChildScrollView(
-			child: LoginScene(),
-		),
+		body:LoginScene(),
 		),
 	);
 	}
