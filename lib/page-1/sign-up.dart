@@ -60,8 +60,7 @@ class SignUpScene extends StatelessWidget {
                         top: 210*fem,
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                                context, MaterialPageRoute( builder: (context) => LoginScene()));
+                            Navigator.push(context, MaterialPageRoute( builder: (context) => LoginScene()));
                           },
                           style: TextButton.styleFrom(
                             padding: EdgeInsets.zero,

@@ -44,7 +44,7 @@ class LoginScene extends StatelessWidget {
               ),
               Container(
                 // autogroupqseuSnh (Nn53UbFmN3YuCEWhFrqsEu)
-                padding: EdgeInsets.fromLTRB(58*fem, 30*fem, 58*fem, 278*fem),
+                padding: EdgeInsets.fromLTRB(58*fem, 50*fem, 58*fem, 278*fem),
                 width: double.infinity,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,

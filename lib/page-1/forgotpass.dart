@@ -125,6 +125,7 @@ class ForgotScene extends StatelessWidget {
                             ),
                           ),
                         ),
+                        
                         Positioned(
                           // component18wP (1:31)
                           left: 219*fem,
