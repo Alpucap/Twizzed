@@ -15,6 +15,7 @@ class NotificationDM extends StatelessWidget {
       child: Container(
         // notifpagedmmBX (1:92)
         width: double.infinity,
+        height: 1112,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -24,7 +25,7 @@ class NotificationDM extends StatelessWidget {
             Container(
               // autogrouptuwfV7X (PPNsPEPxCen2Pn4fMQtuwF)
               width: double.infinity,
-              height: 709 * fem - 124,
+              height: 675 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -38,25 +39,27 @@ class NotificationDM extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // profileXK7 (1:95)
+                            // profileNk9 (1:25)
                             margin: EdgeInsets.fromLTRB(
-                                0 * fem, 0 * fem, 116 * fem, 0 * fem),
+                                0 * fem, 20 * fem, 116 * fem, 0 * fem),
                             width: 30 * fem,
                             height: 30 * fem,
                             child: ClipRRect(
-                              borderRadius: BorderRadius.circular(100 * fem),
+                              borderRadius: BorderRadius.circular(90 * fem),
                               child: Image.asset(
-                                'assets/page-1/images/profile-gCy.png',
+                                'assets/page-1/images/profile-z73.png',
                                 fit: BoxFit.cover,
                               ),
                             ),
                           ),
                           Container(
-                            // logoEjK (1:94)
+                            margin: EdgeInsets.fromLTRB(
+                                0 * fem, 20 * fem, 0 * fem, 0 * fem),
+                            // logogeM (1:24)
                             width: 50 * fem,
                             height: 50 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/logo-NX3.png',
+                              'assets/page-1/images/logo-8t9.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -249,107 +252,110 @@ class NotificationDM extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    // autogroupng2uY57 (PPNs89zjqbRU13y7Fvng2u)
+                    // component13ESD (1:54)
                     left: 24 * fem,
                     top: 55 * fem,
-                    child: Container(
-                      width: 312 * fem,
-                      height: 20 * fem,
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          TextButton(
-                            // component13f9j (1:101)
-                            onPressed: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => NotificationAll()));
-                            },
-                            style: TextButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                            ),
-                            child: Container(
-                              width: 80 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color(0xff2a2a2a),
-                                borderRadius: BorderRadius.circular(20 * fem),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  'ALL',
-                                  style: SafeGoogleFont(
-                                    'Inter',
-                                    fontSize: 8 * ffem,
-                                    fontWeight: FontWeight.w700,
-                                    height: 1.2125 * ffem / fem,
-                                    color: Color(0xffffffff),
-                                  ),
-                                ),
-                              ),
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => NotificationAll()));
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                      ),
+                      child: Container(
+                        width: 80 * fem,
+                        height: 20 * fem,
+                        decoration: BoxDecoration(
+                          color: Color(0xff2a2a2a),
+                          borderRadius: BorderRadius.circular(20 * fem),
+                        ),
+                        child: Center(
+                          child: Text(
+                            'ALL',
+                            style: SafeGoogleFont(
+                              'Inter',
+                              fontSize: 8 * ffem,
+                              fontWeight: FontWeight.w700,
+                              height: 1.2125 * ffem / fem,
+                              color: Color(0xffffffff),
                             ),
                           ),
-                          SizedBox(
-                            width: 36 * fem,
-                          ),
-                          Container(
-                            // component14Wg9 (1:102)
-                            width: 80 * fem,
-                            height: double.infinity,
-                            decoration: BoxDecoration(
-                              color: Color(0xff2a2a2a),
-                              borderRadius: BorderRadius.circular(20 * fem),
-                            ),
-                            child: Center(
-                              child: Text(
-                                'DM’s',
-                                style: SafeGoogleFont(
-                                  'Inter',
-                                  fontSize: 8 * ffem,
-                                  fontWeight: FontWeight.w700,
-                                  height: 1.2125 * ffem / fem,
-                                  color: Color(0xffffffff),
-                                ),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            width: 36 * fem,
-                          ),
-                          TextButton(
-                            // component15bSh (1:103)
-                            onPressed: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => NotificationImp()));
-                            },
-                            style: TextButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                            ),
-                            child: Container(
-                              width: 80 * fem,
-                              height: double.infinity,
-                              decoration: BoxDecoration(
-                                color: Color(0xff2a2a2a),
-                                borderRadius: BorderRadius.circular(20 * fem),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  'Important',
-                                  style: SafeGoogleFont(
-                                    'Inter',
-                                    fontSize: 8 * ffem,
-                                    fontWeight: FontWeight.w700,
-                                    height: 1.2125 * ffem / fem,
-                                    color: Color(0xffffffff),
-                                  ),
-                                ),
-                              ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    // component14eVw (1:57)
+                    left: 140 * fem,
+                    top: 55 * fem,
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => NotificationDM()));
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                      ),
+                      child: Container(
+                        width: 80 * fem,
+                        height: 20 * fem,
+                        decoration: BoxDecoration(
+                          color: Color(0xff2a2a2a),
+                          borderRadius: BorderRadius.circular(20 * fem),
+                        ),
+                        child: Center(
+                          child: Text(
+                            'DM’s',
+                            style: SafeGoogleFont(
+                              'Inter',
+                              fontSize: 8 * ffem,
+                              fontWeight: FontWeight.w700,
+                              height: 1.2125 * ffem / fem,
+                              color: Color(0xffffffff),
                             ),
                           ),
-                        ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    // component15673 (1:60)
+                    left: 256 * fem,
+                    top: 55 * fem,
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => NotificationImp()));
+                      },
+                      style: TextButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                      ),
+                      child: Container(
+                        width: 80 * fem,
+                        height: 20 * fem,
+                        decoration: BoxDecoration(
+                          color: Color(0xff2a2a2a),
+                          borderRadius: BorderRadius.circular(20 * fem),
+                        ),
+                        child: Center(
+                          child: Text(
+                            'Important',
+                            style: SafeGoogleFont(
+                              'Inter',
+                              fontSize: 8 * ffem,
+                              fontWeight: FontWeight.w700,
+                              height: 1.2125 * ffem / fem,
+                              color: Color(0xffffffff),
+                            ),
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -387,7 +393,7 @@ class NotificationDM extends StatelessWidget {
                   Container(
                     // mingcutenotificationfillWKB (I1:26;6:81)
                     margin: EdgeInsets.fromLTRB(
-                        15 * fem, 0 * fem, 45 * fem, 0 * fem),
+                        20 * fem, 0 * fem, 45 * fem, 0 * fem),
                     width: 30 * fem,
                     height: 30 * fem,
                     child: Image.asset(
@@ -413,7 +419,7 @@ class NotificationDM extends StatelessWidget {
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 32.88 * fem, 0 * fem),
                     width: 50 * fem,
-                    height: 70,
+                    height: 60,
                     decoration: BoxDecoration(
                       border: Border.all(color: Color(0xffffffff)),
                       color: Color(0xff21a4c1),

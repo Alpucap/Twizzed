@@ -11,11 +11,12 @@ class NotificationAll extends StatelessWidget {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Container(
-      width: 412,
+      width: double.infinity,
       height: 1112,
       child: Container(
         // notifpageMo7 (1:22)
-        width: 412,
+        width: double.infinity,
+        height: 1112,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -25,7 +26,7 @@ class NotificationAll extends StatelessWidget {
             Container(
               // autogroup35cuQ97 (PPNnasPmq4idW2wJ6z35Cu)
               width: double.infinity,
-              height: 620 * fem,
+              height: 675 * fem,
               child: Stack(
                 children: [
                   Positioned(
@@ -41,7 +42,7 @@ class NotificationAll extends StatelessWidget {
                           Container(
                             // profileNk9 (1:25)
                             margin: EdgeInsets.fromLTRB(
-                                0 * fem, 0 * fem, 116 * fem, 0 * fem),
+                                0 * fem, 20 * fem, 116 * fem, 0 * fem),
                             width: 30 * fem,
                             height: 30 * fem,
                             child: ClipRRect(
@@ -53,6 +54,8 @@ class NotificationAll extends StatelessWidget {
                             ),
                           ),
                           Container(
+                            margin: EdgeInsets.fromLTRB(
+                                0 * fem, 20 * fem, 0 * fem, 0 * fem),
                             // logogeM (1:24)
                             width: 50 * fem,
                             height: 50 * fem,
@@ -470,9 +473,8 @@ class NotificationAll extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // mingcutenotificationfillWKB (I1:26;6:81)
                     margin: EdgeInsets.fromLTRB(
-                        15 * fem, 0 * fem, 45 * fem, 0 * fem),
+                        20 * fem, 0 * fem, 45 * fem, 0 * fem),
                     width: 30 * fem,
                     height: 30 * fem,
                     child: Image.asset(
@@ -482,7 +484,6 @@ class NotificationAll extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // materialsymbolssearchcND (I1:26;6:85)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 34.75 * fem, 0 * fem),
                     width: 22.5 * fem,
@@ -494,11 +495,10 @@ class NotificationAll extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // autogroupdspuWyP (PPNoskQfwboKuBk739Dspu)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 32.88 * fem, 0 * fem),
                     width: 50 * fem,
-                    height: 70,
+                    height: 60,
                     decoration: BoxDecoration(
                       border: Border.all(color: Color(0xffffffff)),
                       color: Color(0xff21a4c1),
