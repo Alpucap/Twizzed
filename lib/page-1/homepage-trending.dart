@@ -487,7 +487,6 @@ class HomeTrend extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    // ellipse2dyo (1:121)
                     left: 301 * fem,
                     top: 598 * fem,
                     child: Align(
@@ -500,6 +499,21 @@ class HomeTrend extends StatelessWidget {
                             border: Border.all(color: Color(0xffffffff)),
                             color: Color(0xff21a4c1),
                           ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: 316.25 * fem,
+                    top: 614.2474975586 * fem,
+                    child: Align(
+                      child: SizedBox(
+                        width: 17.5 * fem,
+                        height: 17.5 * fem,
+                        child: Image.network(
+                          'Plus.png',
+                          width: 17.5 * fem,
+                          height: 17.5 * fem,
                         ),
                       ),
                     ),

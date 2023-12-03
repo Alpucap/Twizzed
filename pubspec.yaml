@@ -491,6 +491,7 @@ flutter:
     - assets/page-1/images/profile-vLm.png
     - assets/page-1/images/logo-3RX.png
     - assets/page-1/images/NoPICTbg.png
+    - assets/Plus.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
