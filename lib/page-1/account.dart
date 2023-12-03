@@ -268,7 +268,7 @@ class AccountScene extends StatelessWidget {
               padding:
                   EdgeInsets.fromLTRB(10 * fem, 14 * fem, 10 * fem, 0 * fem),
               width: double.infinity,
-              height: 355 * fem,
+              height: 370 * fem,
               decoration: BoxDecoration(
                 color: Color(0xff000000),
               ),

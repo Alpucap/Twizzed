@@ -559,29 +559,33 @@ class NotificationImp extends StatelessWidget {
                       ),
                     ),
                   ),
-                  GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => SettingsPage()),
-                    );
-                  },
-                  child: Positioned(
+                  Positioned(
+                    // materialsymbolssettings8ZX (1:63)
                     left: 301 * fem,
-                    top: 0 * fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 70 * fem,
-                        height: 120 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/material-symbols-settings-ELZ.png',
+                    top: 20 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SettingsPage(), 
+                          ),
+                        );
+                      },
+                      child: Align(
+                        child: SizedBox(
                           width: 70 * fem,
-                          height: 120 * fem,
+                          height: 25 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings.png',
+                            width: 70 * fem,
+                            height: 25 * fem,
+                          ),
                         ),
                       ),
                     ),
                   ),
-                )
+
 
                 ],
               ),

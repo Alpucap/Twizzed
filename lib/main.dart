@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/page-1/login.dart';
+import 'package:myapp/page-1/notif-page.dart';
+import 'package:myapp/page-1/trendpage.dart';
 import 'package:myapp/utils.dart';
 
 void main() => runApp(MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScene(),
+      home: TrendPage(),
     );
   }
 }

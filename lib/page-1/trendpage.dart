@@ -20,7 +20,7 @@ class TrendPage extends StatelessWidget {
       height: 1200*fem,
       child: Container(
         // trendpagek25 (1:18)
-        padding: EdgeInsets.fromLTRB(0 * fem, 10 * fem, 0 * fem, 0 * fem),
+        padding: EdgeInsets.fromLTRB(0 * fem, 20 * fem, 0 * fem, 0 * fem),
         width: double.infinity,
         height: 1200*fem,
         decoration: BoxDecoration(
@@ -105,24 +105,32 @@ class TrendPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      // Navigate to SettingsPage here
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => SettingsPage()),
-                      );
-                    },
-                    child: Container(
-                      width: 25.13 * fem,
-                      height: 25 * fem,
-                      child: Image.asset(
-                        'assets/page-1/images/material-symbols-settings-variant2.png',
-                        width: 25.13 * fem,
-                        height: 25 * fem,
+                  Positioned(
+                    // materialsymbolssettings8ZX (1:63)
+                    left: 291 * fem,
+                    top: 20 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SettingsPage(), 
+                          ),
+                        );
+                      },
+                      child: Align(
+                        child: SizedBox(
+                          width: 30 * fem,
+                          height: 25 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings.png',
+                            width: 30 * fem,
+                            height: 25 * fem,
+                          ),
+                        ),
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),

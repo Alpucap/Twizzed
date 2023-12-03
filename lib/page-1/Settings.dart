@@ -32,7 +32,7 @@ class SettingsPage extends StatelessWidget {
               Container(
                 // autogrouphccbWQV (QfET7serS78nzkjXeChCCb)
                 width: double.infinity,
-                height: 500 * fem, //Buat atur nanti klo overflow
+                height: 700 * fem, //Buat atur nanti klo overflow
                 child: Stack(
                   children: [
                     Positioned(

@@ -31,7 +31,7 @@ class NotificationAll extends StatelessWidget {
             Container(
               // autogroup35cuQ97 (PPNnasPmq4idW2wJ6z35Cu)
               width: double.infinity,
-              height: 675 * fem,
+              height: 690 * fem,
               child: Stack(
                 children: [
                   Positioned(
