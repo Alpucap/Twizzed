@@ -17,10 +17,12 @@ class TrendPage extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
+      height: 900*fem,
       child: Container(
         // trendpagek25 (1:18)
         padding: EdgeInsets.fromLTRB(0 * fem, 10 * fem, 0 * fem, 0 * fem),
         width: double.infinity,
+        height: 900*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),

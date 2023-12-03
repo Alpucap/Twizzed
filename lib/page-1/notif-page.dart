@@ -17,11 +17,11 @@ class NotificationAll extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
-      height: 730*fem,
+      height: 900*fem,
       child: Container(
         // notifpageMo7 (1:22)
         width: double.infinity,
-        height: 730*fem,
+        height: 900*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),

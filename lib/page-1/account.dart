@@ -15,9 +15,11 @@ class AccountScene extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
+      height: 900*fem,
       child: Container(
         // accountzS9 (24:387)
         width: double.infinity,
+        height: 900*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),

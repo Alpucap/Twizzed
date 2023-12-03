@@ -16,11 +16,11 @@ class dmPage extends StatelessWidget {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     return Container(
       width: 512,
-      height: 1112,
+      height: 900*fem,
       child: Container(
         // dmpageeRj (2:88)
         width: 512,
-        height: 1112,
+        height: 900*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -81,16 +81,16 @@ class dmPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => SettingsPage()),
-                      );
-                    },
-                    child: Positioned(
-                      left: 321 * fem,
-                      top: 10 * fem,
+                  Positioned(
+                    left: 321 * fem,
+                    top: 10 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SettingsPage()),
+                        );
+                      },
                       child: Align(
                         child: SizedBox(
                           width: 30 * fem,
@@ -104,6 +104,7 @@ class dmPage extends StatelessWidget {
                       ),
                     ),
                   ),
+
                   Positioned(
                     // component12pFf (2:95)
                     left: 24 * fem,

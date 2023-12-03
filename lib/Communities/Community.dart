@@ -29,7 +29,7 @@ class _CommunityPageState extends State<CommunityPageWidget> {
     return Scaffold(
       body: Container(
         width: 412*fem,
-        height: 820*fem,
+        height: 900*fem,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -43,7 +43,7 @@ class _CommunityPageState extends State<CommunityPageWidget> {
                   children: [
                     Positioned(
                       left: 9,
-                      top: 10,
+                      top: 0,
                       child: Container(
                         width: 412,
                         height: 50,
@@ -87,24 +87,20 @@ class _CommunityPageState extends State<CommunityPageWidget> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        // Navigate to SettingsPage here
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => SettingsPage()),
                         );
                       },
-                      child: Positioned(
-                        left: 321 * fem,
-                        top: 10 * fem,
-                        child: Align(
-                          child: SizedBox(
+                      child: Align(
+                        alignment: Alignment.topRight,
+                        child: SizedBox(
+                          width: 30 * fem,
+                          height: 30 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings-variant2.png',
                             width: 30 * fem,
                             height: 30 * fem,
-                            child: Image.asset(
-                              'assets/page-1/images/material-symbols-settings-variant2.png',
-                              width: 30 * fem,
-                              height: 30 * fem,
-                            ),
                           ),
                         ),
                       ),

@@ -17,11 +17,11 @@ class SignUpScene extends StatelessWidget {
     return Scaffold(
     body: Container(
           width: 800,
-          height: 740,
+          height: 900*fem,
           child: Container(
             // signupUz1 (1:16)
             width: 800,
-            height: 740,
+            height: 900*fem,
             decoration: BoxDecoration (
               color: Color(0xff000000),
             ),

@@ -18,10 +18,11 @@ class NotificationImp extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
+      height: 900*fem,
       child: Container(
         // notifpageimportant9Db (1:66)
         width: double.infinity,
-        height: 1112,
+        height: 900*fem,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),

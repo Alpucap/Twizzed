@@ -13,10 +13,12 @@ class HomeFollow extends StatelessWidget {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Container(
+      height: 900*fem,
       width: double.infinity,
       child: Container(
         // homepagefollowedUZ3 (1:203)
         width: double.infinity,
+        height: 900*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -233,7 +235,7 @@ class HomeFollow extends StatelessWidget {
                                 width: 340 * fem,
                                 height: 340 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/pexels-eddson-lens-18684565-2-vk5.png',
+                                  'assets/page-1/images/pexels-eddson-lens-18684565-1.png',
                                   fit: BoxFit.cover,
                                 ),
                               ),

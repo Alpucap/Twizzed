@@ -15,11 +15,11 @@ class LoginScene extends StatelessWidget {
     return Scaffold(
       body: Container(
         width: 1500,
-        height: 740,
+        height: 900*fem,
         child: Container(
           // login5fK (1:113)
           width: 900,
-          height: 740,
+          height: 900*fem,
           decoration: const BoxDecoration (
             color: Color(0xff000000),
           ),
