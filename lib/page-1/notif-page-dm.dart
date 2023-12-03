@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
+import 'package:myapp/page-1/homepage-trending.dart';
 import 'package:myapp/page-1/notif-page-important.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
@@ -454,25 +455,33 @@ class NotificationDM extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    // autogroupdspuWyP (PPNoskQfwboKuBk739Dspu)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 32.88 * fem, 0 * fem),
-                    width: 50 * fem,
-                    height: 60,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Color(0xffffffff)),
-                      color: Color(0xff21a4c1),
-                      borderRadius: BorderRadius.circular(50 * fem),
-                    ),
-                    child: Center(
-                      // logoE8h (I1:26;6:75)
-                      child: SizedBox(
-                        width: 50 * fem,
-                        height: 50 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/logo-ixZ.png',
-                          fit: BoxFit.cover,
+                  GestureDetector(
+                    onTap: () {
+                      // Navigate to HomeTrend when the container is tapped
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => HomeTrend()),
+                      );
+                    },
+                    child: Container(
+                      // autogroupdspuWyP (PPNoskQfwboKuBk739Dspu)
+                      margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 32.88 * fem, 0 * fem),
+                      width: 50 * fem,
+                      height: 60,
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Color(0xffffffff)),
+                        color: Color(0xff21a4c1),
+                        borderRadius: BorderRadius.circular(50 * fem),
+                      ),
+                      child: Center(
+                        // logoE8h (I1:26;6:75)
+                        child: SizedBox(
+                          width: 50 * fem,
+                          height: 50 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/logo-ixZ.png',
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                     ),
