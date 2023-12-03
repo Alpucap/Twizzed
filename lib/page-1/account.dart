@@ -3,7 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
-import 'package:myapp/page-1/account-media.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
@@ -41,7 +41,9 @@ class AccountScene extends StatelessWidget {
                         width: 30 * fem,
                         height: 30 * fem,
                         child: TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => SettingsPage()),);
+                          },
                           style: TextButton.styleFrom(
                             padding: EdgeInsets.zero,
                           ),

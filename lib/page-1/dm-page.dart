@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/ChatScreen.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
@@ -84,18 +85,25 @@ class dmPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    // materialsymbolssettingsvariant (2:91)
-                    left: 321 * fem,
-                    top: 10 * fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 30 * fem,
-                        height: 30 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/material-symbols-settings-variant2.png',
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SettingsPage()),
+                      );
+                    },
+                    child: Positioned(
+                      left: 321 * fem,
+                      top: 10 * fem,
+                      child: Align(
+                        child: SizedBox(
                           width: 30 * fem,
                           height: 30 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings-variant2.png',
+                            width: 30 * fem,
+                            height: 30 * fem,
+                          ),
                         ),
                       ),
                     ),

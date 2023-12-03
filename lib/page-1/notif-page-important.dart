@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page-dm.dart';
@@ -556,8 +557,14 @@ class NotificationImp extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    // materialsymbolssettingsfTP (1:89)
+                  GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SettingsPage()),
+                    );
+                  },
+                  child: Positioned(
                     left: 301 * fem,
                     top: 0 * fem,
                     child: Align(
@@ -572,6 +579,8 @@ class NotificationImp extends StatelessWidget {
                       ),
                     ),
                   ),
+                )
+
                 ],
               ),
             ),

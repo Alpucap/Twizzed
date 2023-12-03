@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page.dart';
@@ -104,16 +105,24 @@ class TrendPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Container(
-                    // materialsymbolssettingsvariant (1:68)
-                    width: 25.13 * fem,
-                    height: 25 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/material-symbols-settings-variant2.png',
+                  GestureDetector(
+                    onTap: () {
+                      // Navigate to SettingsPage here
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SettingsPage()),
+                      );
+                    },
+                    child: Container(
                       width: 25.13 * fem,
                       height: 25 * fem,
+                      child: Image.asset(
+                        'assets/page-1/images/material-symbols-settings-variant2.png',
+                        width: 25.13 * fem,
+                        height: 25 * fem,
+                      ),
                     ),
-                  ),
+                  )
                 ],
               ),
             ),

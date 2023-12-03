@@ -7,6 +7,7 @@ import 'package:myapp/Communities/Grup4.dart';
 import 'package:myapp/Communities/Grup5.dart';
 import 'package:myapp/Communities/Grup6.dart';
 import 'package:myapp/Communities/Grup7.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page.dart';
@@ -25,11 +26,10 @@ class _CommunityPageState extends State<CommunityPageWidget> {
   Widget build(BuildContext context) {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
-    double ffem = fem * 0.97;
     return Scaffold(
       body: Container(
-        width: 412,
-        height: 820,
+        width: 412*fem,
+        height: 820*fem,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -85,23 +85,30 @@ class _CommunityPageState extends State<CommunityPageWidget> {
                         ),
                       ),
                     ),
-                    Positioned(
-                      // materialsymbolssettingsvariant (2:91)
-                      left: 321 * fem,
-                      top: 10 * fem,
-                      child: Align(
-                        child: SizedBox(
-                          width: 30 * fem,
-                          height: 30 * fem,
-                          child: Image.asset(
-                            'assets/page-1/images/material-symbols-settings-variant2.png',
+                    GestureDetector(
+                      onTap: () {
+                        // Navigate to SettingsPage here
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SettingsPage()),
+                        );
+                      },
+                      child: Positioned(
+                        left: 321 * fem,
+                        top: 10 * fem,
+                        child: Align(
+                          child: SizedBox(
                             width: 30 * fem,
                             height: 30 * fem,
+                            child: Image.asset(
+                              'assets/page-1/images/material-symbols-settings-variant2.png',
+                              width: 30 * fem,
+                              height: 30 * fem,
+                            ),
                           ),
                         ),
                       ),
                     ),
-
                     //Search
                     Positioned(
                         left: 21,
@@ -794,289 +801,4 @@ class _CommunityPageState extends State<CommunityPageWidget> {
   }
 }
 
-//SettingPage
-class SettingPage extends StatelessWidget {
-  const SettingPage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Container(
-          width: 412,
-          decoration: BoxDecoration(
-            color: Color(0xff000000),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
-                width: 412,
-                height: 707,
-                child: Stack(
-                  children: [
-                    Positioned(
-                      left: 321,
-                      top: 10,
-                      child: Align(
-                        child: SizedBox(
-                          width: 30,
-                          height: 30,
-                          child: TextButton(
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                            },
-                            style: TextButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                            ),
-                            child: const Icon(
-                              CupertinoIcons.back,
-                              color: Colors.white,
-                              size: 23.0,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 105,
-                      top: 80,
-                      child: Align(
-                        child: SizedBox(
-                          width: 150,
-                          height: 150,
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(100),
-                            child: Image.network(
-                              'assets/SpidermanPP.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 30,
-                      top: 294,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(9, 8, 9, 7),
-                        width: 300,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Color(0xff2a2a2a),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          'Name...',
-                          style: TextStyle(
-                            fontFamily: 'Inter',
-                            fontSize: 12,
-                            fontWeight: FontWeight.w700,
-                            height: 1.2125,
-                            color: Color(0xff545454),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 30,
-                      top: 408,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(9, 8, 9, 7),
-                        width: 300,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Color(0xff2a2a2a),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          '*********',
-                          style: TextStyle(
-                            fontFamily: 'Inter',
-                            fontSize: 12,
-                            fontWeight: FontWeight.w700,
-                            height: 1.2125,
-                            color: Color(0xff545454),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 30,
-                      top: 351,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(9, 8, 9, 7),
-                        width: 300,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Color(0xff2a2a2a),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          'Email@gmail.com',
-                          style: TextStyle(
-                            fontFamily: 'Inter',
-                            fontSize: 12,
-                            fontWeight: FontWeight.w700,
-                            height: 1.2125,
-                            color: Color(0xff545454),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 30,
-                      top: 465,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(9, 8, 9, 7),
-                        width: 300,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Color(0xff2a2a2a),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          '*********',
-                          style: TextStyle(
-                            fontFamily: 'Inter',
-                            fontSize: 12,
-                            fontWeight: FontWeight.w700,
-                            height: 1.2125,
-                            color: Color(0xff545454),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 30,
-                      top: 465,
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(9, 8, 9, 7),
-                        width: 300,
-                        height: 30,
-                        decoration: BoxDecoration(
-                          color: Color(0xff2a2a2a),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          '*********',
-                          style: TextStyle(
-                            fontFamily: 'Inter',
-                            fontSize: 12,
-                            fontWeight: FontWeight.w700,
-                            height: 1.2125,
-                            color: Color(0xff545454),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const Positioned(
-                      left: 30,
-                      top: 275,
-                      child: Align(
-                        child: SizedBox(
-                          width: 64,
-                          height: 15,
-                          child: Text(
-                            'Username:',
-                            style: TextStyle(
-                              fontFamily: 'Inter',
-                              fontSize: 12,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2125,
-                              color: Color(0xffffffff),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const Positioned(
-                      left: 141,
-                      top: 243,
-                      child: Align(
-                        child: SizedBox(
-                          width: 78,
-                          height: 19,
-                          child: Text(
-                            'MrNobody',
-                            style: TextStyle(
-                              fontFamily: 'Inter',
-                              fontSize: 15,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2125,
-                              color: Color(0xffffffff),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const Positioned(
-                      left: 30,
-                      top: 389,
-                      child: Align(
-                        child: SizedBox(
-                          width: 62,
-                          height: 15,
-                          child: Text(
-                            'Password:',
-                            style: TextStyle(
-                              fontFamily: 'Inter',
-                              fontSize: 12,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2125,
-                              color: Color(0xffffffff),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const Positioned(
-                      left: 30,
-                      top: 332,
-                      child: Align(
-                        child: SizedBox(
-                          width: 36,
-                          height: 15,
-                          child: Text(
-                            'Email:',
-                            style: TextStyle(
-                              fontFamily: 'Inter',
-                              fontSize: 12,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2125,
-                              color: Color(0xffffffff),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const Positioned(
-                      left: 30,
-                      top: 446,
-                      child: Align(
-                        child: SizedBox(
-                          width: 52,
-                          height: 15,
-                          child: Text(
-                            'No. Telp:',
-                            style: TextStyle(
-                              fontFamily: 'Inter',
-                              fontSize: 12,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2125,
-                              color: Color(0xffffffff),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}

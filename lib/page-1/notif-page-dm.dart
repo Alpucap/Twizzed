@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/notif-page-important.dart';
 import 'package:myapp/page-1/notif-page.dart';
@@ -374,22 +375,30 @@ class NotificationDM extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    // materialsymbolssettingsTzh (1:104)
-                    left: 301 * fem,
-                    top: 0 * fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 70 * fem,
-                        height: 120 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/material-symbols-settings-4ZF.png',
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SettingsPage()),
+                      );
+                    },
+                    child: Positioned(
+                      left: 301 * fem,
+                      top: 0 * fem,
+                      child: Align(
+                        child: SizedBox(
                           width: 70 * fem,
                           height: 120 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings-4ZF.png',
+                            width: 70 * fem,
+                            height: 120 * fem,
+                          ),
                         ),
                       ),
                     ),
-                  ),
+                  )
+
                 ],
               ),
             ),

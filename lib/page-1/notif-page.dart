@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page-dm.dart';
 import 'package:myapp/page-1/notif-page-important.dart';
 import 'package:myapp/page-1/trendpage.dart';
-import 'dart:ui';
 import 'package:myapp/utils.dart';
 
 class NotificationAll extends StatelessWidget {
@@ -14,8 +14,6 @@ class NotificationAll extends StatelessWidget {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    double width = MediaQuery.of(context).size.width; 
-    double height = MediaQuery.of(context).size.height;
     return Container(
       width: double.infinity,
       height: 730*fem,
@@ -459,14 +457,24 @@ class NotificationAll extends StatelessWidget {
                     // materialsymbolssettings8ZX (1:63)
                     left: 301 * fem,
                     top: 20 * fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 70 * fem,
-                        height: 25 * fem,
-                        child: Image.asset(
-                          'assets/page-1/images/material-symbols-settings.png',
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SettingsPage(), 
+                          ),
+                        );
+                      },
+                      child: Align(
+                        child: SizedBox(
                           width: 70 * fem,
                           height: 25 * fem,
+                          child: Image.asset(
+                            'assets/page-1/images/material-symbols-settings.png',
+                            width: 70 * fem,
+                            height: 25 * fem,
+                          ),
                         ),
                       ),
                     ),
