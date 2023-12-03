@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/page-1/dm-page.dart';
 
 class ChatScreen extends StatelessWidget {
   @override

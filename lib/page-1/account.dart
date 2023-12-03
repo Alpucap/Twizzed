@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/Settings.dart';
 import 'package:myapp/page-1/dm-page.dart';

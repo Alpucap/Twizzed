@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/ChatScreen.dart';
 import 'package:myapp/page-1/Settings.dart';
@@ -9,7 +6,6 @@ import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/homepage-trending.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
-import 'package:myapp/utils.dart';
 
 class dmPage extends StatelessWidget {
   const dmPage({super.key});
@@ -18,7 +14,6 @@ class dmPage extends StatelessWidget {
   Widget build(BuildContext context) {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
-    double ffem = fem * 0.97;
     return Container(
       width: 512,
       height: 1112,
