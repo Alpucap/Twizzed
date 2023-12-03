@@ -161,7 +161,7 @@ class HomeTrend extends StatelessWidget {
                       padding: EdgeInsets.fromLTRB(
                           10 * fem, 14 * fem, 10 * fem, 0 * fem),
                       width: 360 * fem,
-                      height: 642 * fem,
+                      height: 672 * fem,
                       decoration: BoxDecoration(
                         color: Color(0xff000000),
                       ),

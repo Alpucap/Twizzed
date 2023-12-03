@@ -38,7 +38,7 @@ class _CommunityPageState extends State<CommunityPageWidget> {
           children: [
             Container(
                 width: 412,
-                height: 735,
+                height: 750, //Appbar height nantinya
                 child: Stack(
                   children: [
                     Positioned(

@@ -30,7 +30,7 @@ class dmPage extends StatelessWidget {
             Container(
               // autogroupuqzqNcd (9vVCKSovqQY9kN8HxzUqzq)
               width: double.infinity,
-              height: 673 * fem,
+              height: 703 * fem,
               child: Stack(
                 children: [
                   Positioned(

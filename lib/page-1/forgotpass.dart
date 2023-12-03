@@ -43,7 +43,7 @@ class ForgotScene extends StatelessWidget {
                 // autogrouprwgds2M (Nn4zpW1rP7Q1YTk7PFRWGd)
                 padding: EdgeInsets.fromLTRB(0*fem, 23*fem, 0*fem, 0*fem),
                 width: double.infinity,
-                height: 300*fem,
+                height: 600*fem,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [

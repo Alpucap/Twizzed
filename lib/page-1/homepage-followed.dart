@@ -146,7 +146,7 @@ class HomeFollow extends StatelessWidget {
               // autogroup2uzqJM3 (KAkgkyZVuDnpr1oJYv2Uzq)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem),
               width: double.infinity,
-              height: 648 * fem,
+              height: 640 * fem,
               child: Stack(
                 children: [
                   Positioned(
