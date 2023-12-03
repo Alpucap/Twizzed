@@ -50,7 +50,7 @@ class HomeTrend extends StatelessWidget {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(100 * fem),
                             child: Image.asset(
-                              'assets/page-1/images/profile-7YZ.png',
+                              'assets/page-1/images/profile.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -62,7 +62,7 @@ class HomeTrend extends StatelessWidget {
                           width: 50 * fem,
                           height: 50 * fem,
                           child: Image.asset(
-                            'assets/page-1/images/logo-avh.png',
+                            'assets/Twizzed.png',
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -178,7 +178,7 @@ class HomeTrend extends StatelessWidget {
                                 width: 340 * fem,
                                 height: 340 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/pexels-eddson-lens-18684565-1-zf7.png',
+                                  'assets/page-1/images/pexels-eddson-lens-18684565-1.png',
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -202,7 +202,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-jY9.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -214,7 +214,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-PbB.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png', 
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -226,7 +226,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-6Sy.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -264,7 +264,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-KDw.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -276,7 +276,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-VTB.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -288,7 +288,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-yVo.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -301,7 +301,7 @@ class HomeTrend extends StatelessWidget {
                                 width: 340 * fem,
                                 height: 340 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/pexels-eddson-lens-18684565-3-JnZ.png',
+                                  'assets/page-1/images/pexels-eddson-lens-18684565-3.png',
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -326,7 +326,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-cYm.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -338,7 +338,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-rpu.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -350,7 +350,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-TQy.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -363,7 +363,7 @@ class HomeTrend extends StatelessWidget {
                                 width: 340 * fem,
                                 height: 340 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/pexels-eddson-lens-18684565-4-PHf.png',
+                                  'assets/page-1/images/pexels-eddson-lens-18684565-4.png',
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -388,7 +388,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-cQM.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -400,7 +400,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-Bph.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -412,7 +412,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-mt1.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -425,7 +425,7 @@ class HomeTrend extends StatelessWidget {
                                 width: 340 * fem,
                                 height: 340 * fem,
                                 child: Image.asset(
-                                  'assets/page-1/images/pexels-eddson-lens-18684565-5-gk5.png',
+                                  'assets/page-1/images/pexels-eddson-lens-18684565-5.png',
                                   fit: BoxFit.cover,
                                 ),
                               ),
@@ -448,7 +448,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-BLy.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -472,7 +472,7 @@ class HomeTrend extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-Ucd.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),

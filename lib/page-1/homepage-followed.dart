@@ -62,7 +62,7 @@ class HomeFollow extends StatelessWidget {
                             width: 50 * fem,
                             height: 50 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/logo-JvZ.png',
+                              'assets/Twizzed.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -71,7 +71,7 @@ class HomeFollow extends StatelessWidget {
                             width: 24.13 * fem,
                             height: 24 * fem,
                             child: Image.asset(
-                              'assets/page-1/images/material-symbols-settings-variant2-y3b.png',
+                              'assets/page-1/images/material-symbols-settings-variant2.png',
                               width: 25.13 * fem,
                               height: 25 * fem,
                             ),
@@ -198,7 +198,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-Apd.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -210,7 +210,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-wQR.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -222,7 +222,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-pfF.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -260,7 +260,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-CyK.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -272,7 +272,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-jB3.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -284,7 +284,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-YGM.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -322,7 +322,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-ukq.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -334,7 +334,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-jE5.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -384,7 +384,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-7sB.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -396,7 +396,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-Ue1.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -408,7 +408,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-vzR.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
@@ -444,7 +444,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 18.35 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-Bhw.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 20 * fem,
                                         height: 18.35 * fem,
                                       ),
@@ -456,7 +456,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 20 * fem,
                                       height: 20 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/iconamoon-comment-fill-CJ1.png',
+                                        'assets/page-1/images/iconamoon-comment-fill.png',
                                         width: 20 * fem,
                                         height: 20 * fem,
                                       ),
@@ -468,7 +468,7 @@ class HomeFollow extends StatelessWidget {
                                       width: 18 * fem,
                                       height: 15 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/vector-Wgu.png',
+                                        'assets/page-1/images/vector.png',
                                         width: 18 * fem,
                                         height: 15 * fem,
                                       ),
