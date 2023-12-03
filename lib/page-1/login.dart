@@ -14,12 +14,12 @@ class LoginScene extends StatelessWidget {
     double ffem = fem * 0.97;
     return Scaffold(
       body: Container(
-        width: 1500,
-        height: 900*fem,
+        width: double.infinity,
+        height: 1200*fem,
         child: Container(
           // login5fK (1:113)
-          width: 900,
-          height: 900*fem,
+          width: double.infinity,
+          height: 1200*fem,
           decoration: const BoxDecoration (
             color: Color(0xff000000),
           ),

@@ -14,11 +14,11 @@ class HomeTrend extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
-      height: 900*fem,
+      height: 1200*fem,
       child: Container(
         // homepagetrendingbSu (1:83)
         width: double.infinity,
-        height: 900*fem,
+        height: 1200*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),

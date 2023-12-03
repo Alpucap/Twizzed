@@ -17,12 +17,12 @@ class SettingsPage extends StatelessWidget {
     double ffem = fem * 0.97;
     return Scaffold(
     body: Container(
-      height: 900*fem,
+      height: 1200*fem,
       width: double.infinity,
       child: Container(
           // accountzS9 (24:387)
           width: double.infinity,
-          height: 900*fem,
+          height: 1200*fem,
           decoration: BoxDecoration(
             color: Color(0xff000000),
           ),

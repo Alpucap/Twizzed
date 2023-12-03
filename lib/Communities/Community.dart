@@ -28,8 +28,8 @@ class _CommunityPageState extends State<CommunityPageWidget> {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     return Scaffold(
       body: Container(
-        width: 412*fem,
-        height: 900*fem,
+        width: double.infinity,
+        height: 1200*fem,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),

@@ -15,11 +15,11 @@ class ForgotScene extends StatelessWidget {
     double ffem = fem * 0.97;
     return Scaffold(
     body: Container(
-        width: 420,
-        height: 900*fem,
+        width: double.infinity,
+        height: 1200*fem,
         child: Container(
           width: 420,
-          height: 900*fem,
+          height: 1200*fem,
           padding: EdgeInsets.fromLTRB(0*fem, 180*fem, 0*fem, 0*fem),
           // forgotpassYTw (1:35)
           decoration: BoxDecoration (

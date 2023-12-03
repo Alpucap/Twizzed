@@ -15,12 +15,12 @@ class dmPage extends StatelessWidget {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     return Container(
-      width: 512,
-      height: 900*fem,
+      width: double.infinity,
+      height: 1200*fem,
       child: Container(
         // dmpageeRj (2:88)
-        width: 512,
-        height: 900*fem,
+        width: double.infinity,
+        height: 1200*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),

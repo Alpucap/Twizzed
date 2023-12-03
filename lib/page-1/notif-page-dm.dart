@@ -17,11 +17,11 @@ class NotificationDM extends StatelessWidget {
     double ffem = fem * 0.97;
     return Container(
       width: double.infinity,
-      height: 900*fem,
+      height: 1200*fem,
       child: Container(
         // notifpagedmmBX (1:92)
         width: double.infinity,
-        height: 900*fem,
+        height: 1200*fem,
         decoration: const BoxDecoration(
           color: Color(0xff000000),
         ),
