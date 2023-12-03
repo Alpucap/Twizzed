@@ -73,7 +73,7 @@ class ForgotScene extends StatelessWidget {
 
                       Container(
                         // autogroupmbftRi5 (Nn4zfkmRavoLF7VMT7mbfT)
-                        margin: EdgeInsets.fromLTRB(30*fem, 0*fem, 30*fem, 21*fem),
+                        margin: EdgeInsets.fromLTRB(45*fem, 0*fem, 30*fem, 21*fem),
                         width: 420*fem,
                         height: 23*fem,
                         child: Row(

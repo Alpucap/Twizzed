@@ -134,7 +134,7 @@ class LoginScene extends StatelessWidget {
                             },
                             child: Container(
                               // component1Ycm (1:124)
-                              width: 83 * fem,
+                              width: 67 * fem,
                               height: double.infinity,
                               decoration: BoxDecoration(
                                 color: Color(0xffffffff),
