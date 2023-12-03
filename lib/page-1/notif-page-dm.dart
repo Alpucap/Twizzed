@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/notif-page-important.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
@@ -44,16 +45,27 @@ class NotificationDM extends StatelessWidget {
                           Container(
                             // profileNk9 (1:25)
                             margin: EdgeInsets.fromLTRB(
-                                0 * fem, 20 * fem, 116 * fem, 0 * fem),
+                              0 * fem, 20 * fem, 116 * fem, 0 * fem  
+                            ),
                             width: 30 * fem,
                             height: 30 * fem,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(90 * fem),
-                              child: Image.asset(
-                                'assets/page-1/images/profile-z73.png',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            child: GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => AccountScene()
+                                  )
+                                );
+                              },
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(90 * fem),  
+                                child: Image.asset(
+                                  'assets/page-1/images/profile-z73.png',
+                                  fit: BoxFit.cover,
+                                ),
+                              )
+                            )
                           ),
                           Container(
                             margin: EdgeInsets.fromLTRB(

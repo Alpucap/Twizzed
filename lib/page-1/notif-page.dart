@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page-dm.dart';
 import 'package:myapp/page-1/notif-page-important.dart';
@@ -13,13 +14,15 @@ class NotificationAll extends StatelessWidget {
     double baseWidth = 360;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
+    double width = MediaQuery.of(context).size.width; 
+    double height = MediaQuery.of(context).size.height;
     return Container(
       width: double.infinity,
-      height: 1112,
+      height: 730*fem,
       child: Container(
         // notifpageMo7 (1:22)
         width: double.infinity,
-        height: 1112,
+        height: 730*fem,
         decoration: BoxDecoration(
           color: Color(0xff000000),
         ),
@@ -43,18 +46,26 @@ class NotificationAll extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // profileNk9 (1:25)
+                            // profile3J1 (1:69)
                             margin: EdgeInsets.fromLTRB(
-                                0 * fem, 20 * fem, 116 * fem, 0 * fem),
-                            width: 30 * fem,
-                            height: 30 * fem,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(90 * fem),
-                              child: Image.asset(
-                                'assets/page-1/images/profile-z73.png',
-                                fit: BoxFit.cover,
-                              ),
+                              0 * fem, 20 * fem, 116 * fem, 0 * fem
                             ),
+                            width: 30 * fem, 
+                            height: 30 * fem,
+                            child: GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context, MaterialPageRoute(builder: (context) => AccountScene())  
+                                );
+                              },
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(100 * fem),
+                                child: Image.asset(
+                                  'assets/page-1/images/profile.png',
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            )
                           ),
                           Container(
                             margin: EdgeInsets.fromLTRB(

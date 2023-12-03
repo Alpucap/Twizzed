@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/account-media.dart';
+import 'package:myapp/page-1/dm-page.dart';
+import 'package:myapp/page-1/notif-page.dart';
+import 'package:myapp/page-1/trendpage.dart';
 import 'package:myapp/utils.dart';
 
 class AccountScene extends StatelessWidget {
@@ -51,19 +55,29 @@ class AccountScene extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    // profileJLM (24:423)
+                    // profileJLM (24:423)  
                     left: 105 * fem,
                     top: 80 * fem,
-                    child: Align(
-                      child: SizedBox(
-                        width: 150 * fem,
-                        height: 150 * fem,
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(100 * fem),
-                          child: Image.asset(
-                            'assets/page-1/images/profile-CJH.png',
-                            fit: BoxFit.cover,
-                          ),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => AccountScene()
+                          )  
+                        );
+                      },
+                      child: Align(
+                        child: SizedBox(
+                          width: 150 * fem, 
+                          height: 150 * fem,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(100 * fem),
+                            child: Image.asset(
+                              'assets/page-1/images/profile-CJH.png',
+                              fit: BoxFit.cover,  
+                            ),
+                          ),  
                         ),
                       ),
                     ),
@@ -276,6 +290,8 @@ class AccountScene extends StatelessWidget {
                 ),
               ),
             ),
+
+            //Appbar
             Container(
               // component21tD (1:26)
               padding: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 0 * fem),
@@ -298,7 +314,7 @@ class AccountScene extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => TestScene()));
+                                builder: (context) => NotificationAll()));
                       },
                       child: Image.asset(
                         'assets/page-1/images/mingcute-notification-fill.png',
@@ -318,7 +334,7 @@ class AccountScene extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => TestScene()));
+                                builder: (context) => TrendPage()));
                       },
                       child: Image.asset(
                         'assets/page-1/images/material-symbols-search.png',
@@ -361,7 +377,7 @@ class AccountScene extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => TestScene()));
+                                builder: (context) => CommunityPageWidget()));
                       },
                       child: Image.asset(
                         'assets/page-1/images/fluent-people-community-16-filled.png',
@@ -381,7 +397,7 @@ class AccountScene extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => TestScene()));
+                                builder: (context) => dmPage()));
                       },
                       child: Image.asset(
                         'assets/page-1/images/uil-message.png',

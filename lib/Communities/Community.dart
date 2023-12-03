@@ -7,6 +7,7 @@ import 'package:myapp/Communities/Grup4.dart';
 import 'package:myapp/Communities/Grup5.dart';
 import 'package:myapp/Communities/Grup6.dart';
 import 'package:myapp/Communities/Grup7.dart';
+import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
@@ -53,13 +54,23 @@ class _CommunityPageState extends State<CommunityPageWidget> {
                               margin: const EdgeInsets.fromLTRB(15, 10, 0, 0),
                               width: 30,
                               height: 30,
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(100),
-                                child: Image.asset(
-                                  'assets/page-1/images/profile-z73.png',
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => AccountScene()
+                                    )  
+                                  );
+                                },
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(100),
+                                  child: Image.asset(
+                                    'assets/page-1/images/profile-z73.png',
+                                    fit: BoxFit.cover,  
+                                  ),
+                                )
+                              )
                             ),
                             Container(
                                 margin:

@@ -3,11 +3,14 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
+import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/dm-page.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/utils.dart';
 
 class TrendPage extends StatelessWidget {
+  const TrendPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 360;
@@ -37,16 +40,27 @@ class TrendPage extends StatelessWidget {
                   Container(
                     // profile3J1 (1:69)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 17 * fem, 0 * fem),
-                    width: 30 * fem,
-                    height: 30 * fem,
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(100 * fem),
-                      child: Image.asset(
-                        'assets/page-1/images/profile.png',
-                        fit: BoxFit.cover,
-                      ),
+                      0 * fem, 0 * fem, 17 * fem, 0 * fem
                     ),
+                    width: 30 * fem, 
+                    height: 30 * fem,
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context, 
+                          MaterialPageRoute(
+                            builder: (context) => AccountScene()
+                          )  
+                        );
+                      },
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(100 * fem),
+                        child: Image.asset(
+                          'assets/page-1/images/profile.png',
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    )
                   ),
                   Container(
                     // autogroupt8mw7of (P2FamT4wkLLPD8ZihAt8Mw)

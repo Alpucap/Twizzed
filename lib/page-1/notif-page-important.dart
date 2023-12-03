@@ -53,10 +53,7 @@ class NotificationImp extends StatelessWidget {
                               child: GestureDetector(
                                 onTap: () {
                                   Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              AccountScene()));
+                                      context,MaterialPageRoute(builder: (context) => AccountScene()));
                                 },
                                 child: Image.asset(
                                   'assets/page-1/images/profile-z73.png',

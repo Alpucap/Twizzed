@@ -4,11 +4,14 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/Communities/Community.dart';
 import 'package:myapp/page-1/ChatScreen.dart';
+import 'package:myapp/page-1/account.dart';
 import 'package:myapp/page-1/notif-page.dart';
 import 'package:myapp/page-1/trendpage.dart';
 import 'package:myapp/utils.dart';
 
 class dmPage extends StatelessWidget {
+  const dmPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 360;
@@ -44,18 +47,29 @@ class dmPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // profilepDj (2:94)
+                            // profilepDj (2:94)  
                             margin: EdgeInsets.fromLTRB(
-                                0 * fem, 0 * fem, 116 * fem, 0 * fem),
+                              0 * fem, 0 * fem, 116 * fem, 0 * fem
+                            ),
                             width: 30 * fem,
                             height: 30 * fem,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(100 * fem),
-                              child: Image.asset(
-                                'assets/page-1/images/profile-Jpu.png',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                            child: GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => AccountScene() 
+                                  )  
+                                );
+                              },
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(100 * fem),
+                                child: Image.asset(
+                                  'assets/page-1/images/profile-Jpu.png', 
+                                  fit: BoxFit.cover,
+                                ),
+                              )
+                            )
                           ),
                           Container(
                             // logoMss (2:90)
