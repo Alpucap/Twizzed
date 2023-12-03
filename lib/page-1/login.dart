@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/page-1/forgotpass.dart';
+import 'package:myapp/page-1/homepage-followed.dart';
 import 'package:myapp/page-1/notif-page.dart';
 // import 'package:flutter/gestures.dart';
 // import 'dart:ui';
@@ -132,7 +133,7 @@ class LoginScene extends StatelessWidget {
                             onTap: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => NotificationAll()),
+                                MaterialPageRoute(builder: (context) => HomeFollow()),
                               );
                             },
                             child: Container(
