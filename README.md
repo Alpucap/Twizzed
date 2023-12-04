@@ -1,16 +1,8 @@
-# test
+# Twizzed - Twitter Like App
+1.	Henokh Mikhael Kristiantan (535220154) (enoch-eeb)
+2.	Dustin Joshua Armando Welliken (535220157)  
+3.	Hans Christian Handoto (535220159)  (Alpucap)
+4.	Adhitya Indra Raharja (535220160)  (AdhityaIR)
+5.	Ridhwan Kautsar Dwi Julianto (535220267)  (Rino1807)
+6.	Gilang Samudro Suwarjono (535229202)  (GilangSamudro)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
