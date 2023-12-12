@@ -1,4 +1,6 @@
+# Project Mobile Programming
 # Twizzed - Twitter Like App
+Berikut adalah anggota kelompok kami:
 1.	Henokh Mikhael Kristiantan (535220154) (enoch-eeb)
 2.	Dustin Joshua Armando Welliken (535220157) (DustinW20)
 3.	Hans Christian Handoto (535220159)  (Alpucap)
